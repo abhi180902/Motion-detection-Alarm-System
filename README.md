@@ -8,7 +8,3 @@ Motion Detection Logic: Converts video frames to grayscale and applies Gaussian 
 Alarm System: Once significant movement is detected repeatedly (more than 20 times), an alarm is triggered using winsound.Beep. The alarm runs in a separate thread to avoid blocking the video feed.
 
 User Controls: Press T to toggle motion detection (alarm mode). Press Q to quit the program safely.
-
-Roles & responsibility: led the team and Built the system that employs OpenCV for
-video capture and processing, along with threading for parallel execution of the
-alarm functionality.
